@@ -10,6 +10,11 @@ header {
   padding: 0;
 }
 
+.footer {
+  margin: 0;
+  background: #2e2f42;
+}
+
 .section-first,
 .section-second,
 .section-third {
