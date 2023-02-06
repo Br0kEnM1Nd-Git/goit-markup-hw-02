@@ -1,7 +1,27 @@
+/* Base */
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
 }
+
+header {
+  margin: 0;
+  padding: 0;
+}
+
+.section-first,
+.section-second,
+.section-third {
+  margin: 120px 156px 120px 156px;
+}
+
+.hero-image {
+  margin: 0 0 120px 0;
+  background: #2e2f42;
+}
+
+/* Text and others */
 
 p {
   font-style: normal;
