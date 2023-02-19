@@ -1,0 +1,91 @@
+:root {
+  --text-color: #434455;
+  --logo: #4d5ae5;
+  --title: #2e2f42;
+  --link: #2e2f42;
+  --link-hover: #404bbf;
+  --address: #434455;
+  --address-hover: #404bbf;
+  --button: #4d5ae5;
+  --button-hover: #404bbf;
+  --white: #ffffff;
+  --brand-background: #2e2f42;
+  --section-third: #f4f4fd;
+}
+
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  color: var(--text-color);
+  font-size: 16px;
+}
+
+.hero-image {
+  width: 1440px;
+  height: 600px;
+  background-color: var(--brand-background);
+}
+
+.header {
+  background-color: var(--white);
+}
+
+.section-third {
+  background-color: var(--section-third);
+}
+
+.footer {
+  background-color: var(--brand-background);
+}
+
+h1 {
+  color: var(--white);
+  font-size: 56px;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.logo-item {
+  color: var(--logo);
+}
+
+.title {
+  color: var(--title);
+}
+
+.link {
+  color: var(--link);
+  text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--link-hover);
+}
+
+.address {
+  color: var(--address);
+  text-decoration: none;
+}
+
+.address:hover,
+.address:focus {
+  color: var(--address-hover);
+}
+
+.button {
+  width: 169px;
+  height: 56px;
+  background: var(--button);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  background: var(--button-hover);
+}
