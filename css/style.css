@@ -1,46 +1,79 @@
 :root {
-  --text-color: #434455;
+  --SLATE: #434455;
   --logo: #4d5ae5;
-  --title: #2e2f42;
-  --link: #2e2f42;
-  --link-hover: #404bbf;
+  --hover: #404bbf;
   --address: #434455;
-  --address-hover: #404bbf;
   --button: #4d5ae5;
-  --button-hover: #404bbf;
   --white: #ffffff;
-  --brand-background: #2e2f42;
-  --section-third: #f4f4fd;
+  --brand-color: #2e2f42;
+  --swhite: #f4f4fd;
+  --body-background: #e5e5e5;
+  --portfolio-background: #e7e9fc;
+  --CORNFLOWER: #e7e9fc;
 }
 
 body {
   font-family: "Roboto", "Raleway", sans-serif;
-  color: var(--text-color);
+  color: var(--SLATE);
   font-size: 16px;
+  line-height: 1.5;
+  background-color: var(--body-background);
 }
 
-.hero-image {
-  width: 1440px;
-  height: 600px;
-  background-color: var(--brand-background);
+/* Headers */
+
+h1 {
+  color: var(--white);
+  font-size: 56px;
+  line-height: 1.07;
 }
+
+.h2 {
+  font-size: 36px;
+  line-height: 1.15;
+}
+
+.h3 {
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.title {
+  color: var(--brand-color);
+}
+
+/* Sections */
 
 .header {
   background-color: var(--white);
 }
 
+.hero-image {
+  width: 1440px;
+  height: 600px;
+  background-color: var(--brand-color);
+}
+
 .section-third {
-  background-color: var(--section-third);
+  background-color: var(--swhite);
+}
+
+.slide {
+  background-color: var(--white);
+  width: 360px;
+  height: 420px;
+  left: 156px;
+  top: 288px;
+  border: 1px solid --CORNFLOWER;
+  margin: 48px, 24px, 48px, 24px;
 }
 
 .footer {
-  background-color: var(--brand-background);
+  background-color: var(--brand-color);
+  color: var(--white);
 }
 
-h1 {
-  color: var(--white);
-  font-size: 56px;
-}
+/* Logo */
 
 .logo {
   font-family: "Raleway", sans-serif;
@@ -52,18 +85,16 @@ h1 {
   color: var(--logo);
 }
 
-.title {
-  color: var(--title);
-}
+/* Links and Buttons */
 
 .link {
-  color: var(--link);
+  color: var(--brand-color);
   text-decoration: none;
 }
 
 .link:hover,
 .link:focus {
-  color: var(--link-hover);
+  color: var(--hover);
 }
 
 .address {
@@ -73,7 +104,7 @@ h1 {
 
 .address:hover,
 .address:focus {
-  color: var(--address-hover);
+  color: var(--hover);
 }
 
 .button {
@@ -83,9 +114,30 @@ h1 {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
+  color: var(--white);
 }
 
 .button:hover,
 .button:focus {
-  background: var(--button-hover);
+  background: var(--hover);
+}
+
+.pbutton {
+  width: 116px;
+  height: 48px;
+  background: #f4f4fd;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  cursor: pointer;
+  color: var(--button);
+  background-color: var(--swhite);
+}
+
+.pbutton:hover,
+.pbutton:focus {
+  background-color: var(--hover);
+  color: var(--white);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
