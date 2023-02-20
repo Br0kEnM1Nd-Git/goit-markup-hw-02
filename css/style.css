@@ -14,7 +14,7 @@ body {
   color: var(--SLATE);
   font-size: 16px;
   line-height: 1.5;
-  background-color: var(--body-background);
+  background-color: var(--WHITE);
 }
 
 /* Headers */
@@ -46,8 +46,6 @@ h1 {
 }
 
 .hero-image {
-  width: 1440px;
-  height: 600px;
   background-color: var(--brand-color);
 }
 
@@ -57,10 +55,6 @@ h1 {
 
 .slide {
   background-color: var(--WHITE);
-  width: 360px;
-  height: 420px;
-  left: 156px;
-  top: 288px;
   border: 1px solid var(--CORNFLOWER);
   margin: 48px, 24px, 48px, 24px;
 }
@@ -87,6 +81,7 @@ h1 {
 .link {
   color: var(--brand-color);
   text-decoration: none;
+  font-weight: 500;
 }
 
 .link:hover,
@@ -97,6 +92,7 @@ h1 {
 .address {
   color: var(--SLATE);
   text-decoration: none;
+  font-style: normal;
 }
 
 .address:hover,
@@ -104,14 +100,17 @@ h1 {
   color: var(--OCEAN);
 }
 
+.card-link {
+  text-decoration: none;
+}
+
 .button {
-  width: 169px;
-  height: 56px;
-  background: var(--OCEAN);
+  background: var(--IRIS);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
   cursor: pointer;
+  border: 0;
   color: var(--WHITE);
+  font-family: inherit;
 }
 
 .button:hover,
@@ -120,14 +119,13 @@ h1 {
 }
 
 .pbutton {
-  width: 116px;
-  height: 48px;
   background: #f4f4fd;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
   cursor: pointer;
-  color: var(--OCEAN);
+  color: var(--IRIS);
   background-color: var(--CLOUD);
+  font-family: inherit;
 }
 
 .pbutton:hover,
@@ -137,6 +135,25 @@ h1 {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+}
+
+.ul {
+  list-style-type: none;
+}
+
+.cards > li {
+  border: 1px solid #e7e9fc;
+}
+
+.card-link {
+  color: var(--SLATE);
+}
+
+.our-team > li {
+  background-color: var(--WHITE);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .white {
