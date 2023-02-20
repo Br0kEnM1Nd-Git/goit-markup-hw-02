@@ -53,12 +53,6 @@ h1 {
   background-color: var(--CLOUD);
 }
 
-.slide {
-  background-color: var(--WHITE);
-  border: 1px solid var(--CORNFLOWER);
-  margin: 48px, 24px, 48px, 24px;
-}
-
 .footer {
   background-color: var(--brand-color);
   color: var(--WHITE);
